@@ -1,0 +1,72 @@
+body {
+   color: black;
+   margin-top: 0%;
+   padding-top:0%;
+}
+.heading{
+    width: 30%;
+    background-color:blue;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.heading p{
+    text-align: center;
+    font-size:  15px;
+    margin-top: 0%;
+}
+
+.heading address{
+    margin-left: 5%;
+}
+
+.project{
+    margin-right: 1%;
+    margin-left: 31%;
+    margin-top: 0%;
+}
+.education{
+    margin-left: 31%;
+    margin-right: 1%;
+    font-size: 20px;
+}
+.education1{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.certificat{
+    margin-left: 6%;
+    font-size: 20px;
+    margin-left: 31%;
+}
+.Professional{
+    margin-left: 6%;
+    font-size: 20px;
+    margin-left: 31%;
+}
+.skills{
+    margin-left: 2%;
+    font-size: 20px;
+}
+.languages{
+    margin-left: 2%;
+    font-size: 20px;
+    
+}
+@media screen and (max-width: 768px) {
+    .heading {
+        width: 100%; /* Full width on smaller screens */
+    }
+    
+    .project, .education, .certificat, .Professional, .skills, .languages {
+        margin-left: 5%; /* Adjusted margin for smaller screens */
+    }
+}
