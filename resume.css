@@ -63,10 +63,7 @@ body {
 }
 @media screen and (max-width: 768px) {
     .heading {
-        width: 30%; 
-        top: 0%;
-    left: 0%;
-    z-index: 999;
+        height:100%;
     }
     
     .project, .education, .certificat, .Professional,{
