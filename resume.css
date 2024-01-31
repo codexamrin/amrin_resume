@@ -63,10 +63,13 @@ body {
 }
 @media screen and (max-width: 768px) {
     .heading {
-        width: 100%; /* Full width on smaller screens */
+        width: 30%; 
+        top: 0%;
+    left: 0%;
+    z-index: 999;
     }
     
-    .project, .education, .certificat, .Professional, .skills, .languages {
-        margin-left: 5%; /* Adjusted margin for smaller screens */
+    .project, .education, .certificat, .Professional,{
+        margin-left: 5%; 
     }
 }
