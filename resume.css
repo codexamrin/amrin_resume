@@ -63,14 +63,14 @@ body {
 }
 @media screen and (max-width: 768px) {
    .heading {
+        width: 100%;
         height: auto; 
-        position: fixed; 
-        top: 0; 
-        left: 0; 
+        position: static; 
         z-index: 999; 
     }
     
-    .project, .education, .certificat, .Professional,{
+    .project, .education, .certificat, .Professional{
         margin-left: 5%; 
+        margin-right: 5%;
     }
 }
