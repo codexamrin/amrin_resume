@@ -64,6 +64,7 @@ body {
 @media screen and (max-width: 768px) {
     .heading {
         height:100%;
+       position:fixed
     }
     
     .project, .education, .certificat, .Professional,{
